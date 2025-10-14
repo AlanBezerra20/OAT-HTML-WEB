@@ -1,0 +1,114 @@
+@charset "UTF-8"
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.container {
+  background-color: #fff;
+  width: 90%;
+  max-width: 1000px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+header > h1 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: #333;
+}
+
+/* ===== TOPO ===== */
+.topo {
+  border: 1px solid #bbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  margin-bottom: 20px;
+}
+
+.foto-nome {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border: 1px solid #ccc;
+  padding: 30px;
+}
+
+.foto {
+  width: 140px;
+  height: 140px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icone {
+  width: 70px;
+  height: 70px;
+  border: 3px solid #000;
+  border-radius: 50%;
+}
+
+.nome-texto {
+  margin-left: 40px;
+  max-width: 400px;
+}
+
+.nome-texto > h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.nome-texto  > p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.4;
+}
+
+/* ===== QUEM SOU EU ===== */
+.quem-sou {
+  border: 1px solid #bbb;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.texto {
+  width: 65%;
+}
+
+.texto  > h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.texto > p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.circulo {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
