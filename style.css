@@ -1,45 +1,48 @@
-@charset "UTF-8"
-* {
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
 }
-main {
-    background-color: white;
-    width: 920px;
-    margin-bottom: 30px;
-    height: 3060px;
-    margin: auto;
-    padding:  10px;
-    box-shadow: 0px 0px 5px;
-    border-bottom-left-radius: 10px ;
-    border-bottom-right-radius: 10px;
+body{
+    background-color: black;
+    height: 100vh;
 }
-aside{
-border-radius: 4px;
-    height: 360px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.288);
-    }
- 
-.perfil-container {
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+padding: 40px 4%; 
+}
+header > .interface{
     display: flex;
-    align-items: center;
+    align-items:center;
+    justify-content: space-between;
 }
+header a {
+color: white;
+text-decoration: none
 
-.icone {
-    flex-basis: 300px; 
-    flex-shrink: 0; 
-    text-align: center; 
-    margin-right: 40px; 
-    width: 90px;
-    padding: 90px;
 }
-.icone > img{
-  width: 50% ;
-  height: auto;
+header nav ul {
+    list-style: none;
 }
+header nav ul li {
+    display :inline-block
+    padding: 20px
 
-
-.texto-perfil {
-    flex-grow: 1; 
-    padding-left: 30px; 
+}
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(137, 43, 226, 0.801);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+header .btn-contato button:hover {
+box-shadow: 0px 0px 8px rgb(137, 43, 226);
 }
