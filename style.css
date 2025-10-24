@@ -79,3 +79,39 @@ section.topo-do-site.flex{
     margin: 40px 0;
     font-size: 20px;
 }
+section.especialidades{
+    
+    padding: 40px 4%;
+    text-align: center;
+}
+section.especialidades.flex{
+    gap: 60px; 
+
+
+}
+h2.titulo{
+    color: rgba(137, 43, 226, 0.801);
+    font-size: 40px;
+    text-align: center;
+}
+.especialidades .especialidades-box{
+   color: rgba(137, 43, 226, 0.801);
+   padding: 40px;
+   border-radius: 20px;
+   margin top: 45px;
+   transition : 0,2s;
+}
+ .especialidades .especialidades-box:hover{
+    transform:scale(1.05) ;
+    box-shadow:0 0 20px  rgba(137, 43, 226, 0.274);
+ }
+
+.especialidades .especialidades-box > i {
+font-size:70px ;
+color: rgba(137, 43, 226, 0.801);
+}
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+
+}
